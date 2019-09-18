@@ -3,22 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:weightSum="2"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <linearlayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="match_parent"
+        android:layout_weight="1"
         android:background="#FF6347">
-    </linearlayout>
-    <linearlayout
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="#FFFFFF">
-    </linearlayout>
+    </LinearLayout>
 
 </LinearLayout>
