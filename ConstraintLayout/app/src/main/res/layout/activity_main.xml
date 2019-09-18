@@ -7,13 +7,28 @@
 	android:background="@color/colorPrimaryDark"
 	tools:context=".MainActivity">
 
-	<Button
+    <View
+        android:layout_width="205dp"
+        android:layout_height="200dp"
+        android:background="#000"
+        tools:ignore="MissingConstraints"/>
+
+    <View
+        android:layout_width="205dp"
+        android:layout_height="200dp"
+        android:background="#CF5F4A"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
 		android:id="@+id/button1"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:text="Top"
 		tools:layout_editor_absoluteX="74dp"
-		tools:layout_editor_absoluteY="200dp" />
+		tools:layout_editor_absoluteY="200dp"
+        tools:ignore="MissingConstraints" />
 
 	<Button
 		android:id="@+id/button2"
@@ -21,7 +36,8 @@
 		android:layout_height="wrap_content"
 		android:text="Bottom"
 		tools:layout_editor_absoluteX="0dp"
-		tools:layout_editor_absoluteY="667dp" />
+		tools:layout_editor_absoluteY="667dp"
+        tools:ignore="MissingConstraints" />
 
 	<Button
 		android:id="@+id/button3"
@@ -29,7 +45,8 @@
 		android:layout_height="wrap_content"
 		android:text="Left Below Top"
 		tools:layout_editor_absoluteX="0dp"
-		tools:layout_editor_absoluteY="248dp" />
+		tools:layout_editor_absoluteY="248dp"
+        tools:ignore="MissingConstraints" />
 
 	<Button
 		android:id="@+id/button4"
@@ -37,20 +54,7 @@
 		android:layout_height="wrap_content"
 		android:text="Right Above Bottom"
 		tools:layout_editor_absoluteX="237dp"
-		tools:layout_editor_absoluteY="619dp" />
-
-	<view
-		android:layout_width="205dp"
-		android:layout_height="200dp"
-		android:background="#CF5F4A"></view>
-
-	<view
-		android:layout_width="205dp"
-		android:layout_height="200dp"
-		android:background="#000"
-		tools:layout_editor_absoluteX="206dp"
-		tools:layout_editor_absoluteY="0dp">
-
-	</view>
+		tools:layout_editor_absoluteY="619dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
